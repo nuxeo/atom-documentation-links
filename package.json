@@ -1,0 +1,31 @@
+{
+  "name": "nuxeo-documentation-links",
+  "main": "./lib/nuxeo-documentation-links",
+  "version": "0.1.0",
+  "description": "Provides suggestions of actual page and file links",
+  "keywords": [
+    "Nuxeo",
+    "documentation",
+    "file link",
+    "page link",
+    "handlebars",
+    "autocomplete",
+    "autocomplete-plus"
+  ],
+  "repository": "https://github.com/nuxeo/atom-documentation-links",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.3.3",
+    "request": "^2.79.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
