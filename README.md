@@ -17,7 +17,7 @@ Taken from `editor.json` which is produced by the documentation build.
 - Open Atom
 
 ## Config
-`Cmd + ,`/`Ctrl + ,` for _Settings_ > _Packages_, search for 'Nuxeo' > _Settings_. Set the path/url to be the most recent build.
+`Cmd + ,`/`Ctrl + ,` for _Settings_ > _Packages_, search for 'Nuxeo' > _Settings_. Set the path/url to a local path or use the default which is the latest live version.
 
 
 ## Debugging
