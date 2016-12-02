@@ -8,12 +8,13 @@ Taken from `editor.json` which is produced by the documentation build.
 
 - Close Atom
 - Clone the package repository
-  ```
-  pushd ~;
-  mkdir -p github && cd $_;
-  git clone https://github.com/nuxeo/atom-documentation-links atom-documentation-links;
-  apm link atom-documentation-links;
-  ```
+```
+pushd ~;
+mkdir -p github && cd $_;
+git clone https://github.com/nuxeo/atom-documentation-links atom-documentation-links;
+apm link atom-documentation-links;
+popd;
+```
 - Open Atom
 
 ## Config
