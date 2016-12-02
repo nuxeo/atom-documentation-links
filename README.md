@@ -7,19 +7,14 @@ Taken from `editor.json` which is produced by the documentation build.
 ![Example Animation](https://github.com/nuxeo/atom-documentation-links/raw/master/documentation-links.gif)
 
 ## Installation
+### Within Atom
 
-- Close Atom
-- Clone the package repository
+`cmd + ,` or `ctrl + ,` for _Settings_ > _Install Packages_ > Search for **nuxeo-documentation-links** and _Install_.
+
+### Command line
 ```
-pushd ~
-mkdir -p github && cd $_
-git clone https://github.com/nuxeo/atom-documentation-links atom-documentation-links && cd $_
-npm install
-cd ..
-apm link atom-documentation-links
-popd
+apm install nuxeo-documentation-links
 ```
-- Open Atom
 
 ## Config
 `Cmd + ,`/`Ctrl + ,` for _Settings_ > _Packages_, search for 'Nuxeo' > _Settings_. Set the path/url to a local path or use the default which is the latest live version.
