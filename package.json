@@ -1,7 +1,7 @@
 {
   "name": "nuxeo-documentation-links",
   "main": "./lib/nuxeo-documentation-links",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Provides suggestions of actual page and file links",
   "keywords": [
     "Nuxeo",
